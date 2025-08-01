@@ -1,7 +1,7 @@
 import mysql.connector 
 import getpass
 
-mydb = mysql.connector.connect(host='localhost',user='root', password='Lak@2408',database='hotel')
+mydb = mysql.connector.connect(host='localhost',user='root', password='Enter your password',database='hotel')
 mycursor=mydb.cursor()
 
 #Welcome Screen
