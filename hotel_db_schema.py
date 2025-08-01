@@ -1,5 +1,5 @@
 import mysql.connector as m
-mydb=m.connect(host='localhost', user = 'root', password='Lak@2408')
+mydb=m.connect(host='localhost', user = 'root', password='Enter your password')
 myc=mydb.cursor()
 #Creating database 
 myc.execute('create database if not exists Hotel')
